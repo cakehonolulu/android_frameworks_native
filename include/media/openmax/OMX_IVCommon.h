@@ -157,12 +157,6 @@ typedef enum OMX_COLOR_FORMATTYPE {
      * an acceptable range once that is done.
      * */
 
-#ifdef MTK_HARDWARE
-    OMX_COLOR_FormatVendorMTKYUV = 0x7F000001,
-    OMX_COLOR_FormatVendorMTKYUV_FCM = 0x7F000002,
-    OMX_MTK_COLOR_FormatYV12 = 0x7F000200,
-#endif
-
     OMX_COLOR_FormatAndroidOpaque = 0x7F000789,
     OMX_TI_COLOR_FormatYUV420PackedSemiPlanar = 0x7F000100,
     OMX_QCOM_COLOR_FormatYVU420SemiPlanar = 0x7FA30C00,
